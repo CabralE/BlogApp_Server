@@ -1,5 +1,5 @@
 import { get } from "mongoose";
-import Blog from "../models/blog.js";
+import Blog from "../models/Blog.js";
 
 export const getBlogs = async (req, res) => {
   try {
